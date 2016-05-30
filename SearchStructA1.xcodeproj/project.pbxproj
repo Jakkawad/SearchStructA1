@@ -12,6 +12,8 @@
 		31CBA24C1CFC08E600C49703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CBA24A1CFC08E600C49703 /* Main.storyboard */; };
 		31CBA24E1CFC08E600C49703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31CBA24D1CFC08E600C49703 /* Assets.xcassets */; };
 		31CBA2511CFC08E600C49703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CBA24F1CFC08E600C49703 /* LaunchScreen.storyboard */; };
+		31CBA2591CFC094C00C49703 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CBA2581CFC094C00C49703 /* ProductDetailViewController.swift */; };
+		31CBA25B1CFC09B900C49703 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CBA25A1CFC09B900C49703 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		31CBA24D1CFC08E600C49703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31CBA2501CFC08E600C49703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31CBA2521CFC08E600C49703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31CBA2581CFC094C00C49703 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		31CBA25A1CFC09B900C49703 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				31CBA24D1CFC08E600C49703 /* Assets.xcassets */,
 				31CBA24F1CFC08E600C49703 /* LaunchScreen.storyboard */,
 				31CBA2521CFC08E600C49703 /* Info.plist */,
+				31CBA2581CFC094C00C49703 /* ProductDetailViewController.swift */,
+				31CBA25A1CFC09B900C49703 /* Product.swift */,
 			);
 			path = SearchStructA1;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				31CBA2491CFC08E600C49703 /* ViewController.swift in Sources */,
+				31CBA25B1CFC09B900C49703 /* Product.swift in Sources */,
 				31CBA2471CFC08E600C49703 /* AppDelegate.swift in Sources */,
+				31CBA2591CFC094C00C49703 /* ProductDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
